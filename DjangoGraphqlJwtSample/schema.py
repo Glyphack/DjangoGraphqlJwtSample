@@ -15,5 +15,4 @@ class Mutations(graphene:.ObjectType):
     revoke_token = graphql_jwt.Revoke.Field()
 
 
-
 schema = graphene.Schema(mutation=Mutations)
